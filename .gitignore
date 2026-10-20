@@ -1,0 +1,20 @@
+# Arquivos locais e temporários
+.vscode/
+*.log
+*.tmp
+*.bak
+
+# Ambientes e arquivos sensíveis
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Arquivos de máquinas virtuais
+*.vhd
+*.vhdx
+*.vmdk
+*.qcow2
